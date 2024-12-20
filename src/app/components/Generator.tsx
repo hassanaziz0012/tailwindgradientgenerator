@@ -17,6 +17,7 @@ export default function Generator() {
         position: undefined,
         className: "to-pink-400",
     });
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [via, setVia] = useState<GradientColor | undefined>();
     const [gradientPosition, setGradientPosition] =
         useState<string>("bg-gradient-to-t");
