@@ -1,6 +1,6 @@
 export default function Footer() {
     const twitter = "https://x.com/nothassanaziz";
-    const github = "";
+    const github = "https://github.com/hassanaziz0012/tailwindgradientgenerator";
 
     return (
         <footer className="text-center p-4">
