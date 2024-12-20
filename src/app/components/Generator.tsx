@@ -94,13 +94,13 @@ export default function Generator() {
 
     return (
         <div className="max-w-screen-2xl mx-auto p-5 ">
-            <div className="grid grid-cols-2 gap-12 p-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-5">
                 <div>
                     <Tabs tabs={tabs}></Tabs>
                 </div>
 
                 <div>
-                    <div className="flex justify-between py-5 mb-6">
+                    <div className="flex flex-wrap gap-x-10 gap-y-6 py-5 mb-6">
                         <fieldset className="flex flex-col gap-y-2">
                             <label htmlFor="direction">Direction</label>
                             <select
